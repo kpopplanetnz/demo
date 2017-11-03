@@ -13,7 +13,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "git-help": "gh-pages --help",
-    "deploy": "npm run build && git config --global credential.helper wincred && gh-pages -d build -b master"
+    "deploy": "npm run build && git config --global credential.helper wincred && gh-pages -d build -b master -m \"Update from src\""
   },
   "devDependencies": {
     "gh-pages": "^1.0.0"
