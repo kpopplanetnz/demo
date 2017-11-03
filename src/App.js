@@ -14,6 +14,7 @@ class App extends Component {
           {/* To get started, edit <code>src/App.js</code> and save to reload. */}
           Hello World
         </p>
+        <p>React is fun, I spent ages setting it up</p>
       </div>
     );
   }
